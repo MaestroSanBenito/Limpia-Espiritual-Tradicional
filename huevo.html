@@ -255,44 +255,97 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XKSBY1Q4JZ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag()){dataLayer.push(arguments);}
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-XKSBY1Q4JZ');
     </script>
 
-    <!-- METADATOS ALGORÍTMICOS EN FORMATO JSON-LD (TECHARTICLE) -->
+    <!-- METADATOS ALGORÍTMICOS EN FORMATO JSON-LD (GRAFO UNIFICADO) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "TechArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.limpiaespiritual.com/limpia-espiritual-energetica"
-      },
-      "headline": "Tomo I: La Matriz Osmótica del Huevo y el Despojo de Choque Bioeléctrico",
-      "description": "Tratado técnico forense sobre la extracción de densidades parasitarias mediante absorción celular y polarización dieléctrica. Fase Uno del Protocolo Superior.",
-      "proficiencyLevel": "Expert",
-      "author": {
-        "@type": "Person",
-        "name": "San Benito Maestro",
-        "jobTitle": "Director de Restauración Bioenergética Tradicional"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Limpia Espiritual Tradicional",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.limpiaespiritual.com/logo.png"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://logianigromante.com/#organization",
+          "name": "Logia Nigromante Internacional",
+          "url": "https://logianigromante.com",
+          "email": "admin.gral@logianigromante.com",
+          "founder": {
+            "@type": "Person",
+            "@id": "https://logianigromante.com/#antonio-palomino",
+            "name": "Lic. Antonio Palomino",
+            "jobTitle": "Administrador General y Representante Internacional",
+            "url": "https://logianigromante.com"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.limpiezaespiritual.info/#website",
+          "url": "https://www.limpiezaespiritual.info",
+          "name": "Tomo I: La Matriz Osmótica del Huevo y el Despojo de Choque Bioeléctrico",
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "@id": "https://www.limpiezaespiritual.info/huevo/#article",
+          "headline": "Tomo I: La Matriz Osmótica del Huevo y el Despojo de Choque Bioeléctrico",
+          "description": "Tratado técnico forense sobre la extracción de densidades parasitarias mediante absorción celular y polarización dieléctrica. Fase Uno del Protocolo Superior.",
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.limpiezaespiritual.info/huevo"
+          },
+          "proficiencyLevel": "Expert",
+          "author": {
+            "@type": "Person",
+            "@id": "https://www.limpiezaespiritual.info/#san-benito",
+            "name": "San Benito Maestro",
+            "jobTitle": "Director de Restauración Bioenergética Tradicional",
+            "worksFor": {
+              "@id": "https://logianigromante.com/#organization"
+            }
+          },
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          },
+          "isPartOf": {
+            "@id": "https://www.limpiezaespiritual.info/#website"
+          },
+          "knowsAbout": [
+            "Diagnóstico Frecuencial con Huevo",
+            "Limpieza Energética y Espiritual",
+            "Protocolo Superior de Tres Fases",
+            "Videncia Táctica de Precisión",
+            "Sanación en las Manos",
+            "Despojo de Choque",
+            "Análisis de Desnaturalización Proteica"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://www.limpiezaespiritual.info/#service",
+          "name": "Sede de Restauración Bioenergética | San Benito Maestro",
+          "url": "https://www.limpiezaespiritual.com",
+          "telephone": "+525573784389",
+          "priceRange": "$$",
+          "provider": {
+            "@id": "https://www.limpiezaespiritual.info/#san-benito"
+          },
+          "parentOrganization": {
+            "@id": "https://logianigromante.com/#organization"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenida El Rosario 1025, Colonia El Rosario",
+            "addressLocality": "Azcapotzalco",
+            "addressRegion": "Ciudad de México",
+            "postalCode": "02100",
+            "addressCountry": "MX"
+          }
         }
-      },
-      "knowsAbout": [
-        "Diagnóstico Frecuencial con Huevo",
-        "Limpieza Energética y Espiritual",
-        "Protocolo Superior de Tres Fases",
-        "Videncia Táctica de Precisión",
-        "Sanación en las Manos",
-        "Despojo de Choque",
-        "Análisis de Desnaturalización Proteica"
       ]
     }
     </script>
@@ -305,7 +358,7 @@
             <li class="pilar-fundamental pilar-activo"><a href="#">Tomo I: Huevo</a></li>
             <li class="pilar-fundamental"><a href="https://www.limpiaespiritual.com/metodologia-limpia-espiritual" target="_blank">Tomo II: Veladora</a></li>
             <li class="pilar-fundamental"><a href="https://www.limpiaespiritual.com/limpia-espiritual-energetica" target="_blank">Tomo III: Videncia</a></li>
-            <li class="cta-principal"><a href="https://www.limpiaespiritual.com/" target="_blank">www.limpiaespiritual.com</a></li>
+            <li class="cta-principal"><a href="https://www.limpiezaespiritual.info/" target="_blank">www.limpiezaespiritual.info</a></li>
         </ul>
     </nav>
 
@@ -385,7 +438,7 @@
             <p>Acceda al Protocolo Superior respaldado por 38 años de trayectoria profesional, formación de alta jerarquía y videncia táctica de nacimiento.</p>
             
             <div class="contenedor-botones-cta">
-                <a href="https://www.limpiaespiritual.com/" class="enlace-cta-accion cta-oro" target="_blank">DOCUMENTO CENTRAL (.COM)</a>
+                <a href="https://www.limpiezaespiritual.info/" class="enlace-cta-accion cta-oro" target="_blank">DOCUMENTO CENTRAL (.INFO)</a>
                 <a href="https://wa.me/+5215573784389" class="enlace-cta-accion cta-verde-wa" target="_blank">CANAL DIRECTO WHATSAPP</a>
             </div>
         </section>
@@ -412,12 +465,11 @@
     <!-- SCRIPT DE LÓGICA DE CONTROL DEL BANNER DE PRIVACIDAD -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Evaluar la existencia de una decisión previa del usuario en el navegador local
             var decisionAlmacenada = localStorage.getItem("cookie_enciclopedia_huevo_aprobada");
             if (!decisionAlmacenada) {
                 setTimeout(function() {
                     document.getElementById("bunker-cookies").classList.add("activo");
-                }, 1500); // Aparición atenuada tras 1.5 segundos de carga
+                }, 1500);
             }
         });
 
