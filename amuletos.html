@@ -260,40 +260,93 @@
       gtag('config', 'G-XKSBY1Q4JZ');
     </script>
 
-    <!-- METADATOS ALGORÍTMICOS EN FORMATO JSON-LD (TECHARTICLE) -->
+    <!-- METADATOS ALGORÍTMICOS EN FORMATO JSON-LD (GRAFO UNIFICADO) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "TechArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.limpiaespiritual.com/servicios"
-      },
-      "headline": "Tomo V: Alta Metafísica Aplicada: Consagración de Amuletos y Talismanes de Poder",
-      "description": "Tratado forense sobre la codificación vibratoria de objetos vehiculares y la imantación de vectores permanentes para dinero, amor, salud y prosperidad. Grado Maestro.",
-      "proficiencyLevel": "Expert",
-      "author": {
-        "@type": "Person",
-        "name": "San Benito Maestro",
-        "jobTitle": "Director de Restauración Bioenergética Tradicional"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Limpia Espiritual Tradicional",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.limpiaespiritual.com/logo.png"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://logianigromante.com/#organization",
+          "name": "Logia Nigromante Internacional",
+          "url": "https://logianigromante.com",
+          "email": "admin.gral@logianigromante.com",
+          "founder": {
+            "@type": "Person",
+            "@id": "https://logianigromante.com/#antonio-palomino",
+            "name": "Lic. Antonio Palomino",
+            "jobTitle": "Administrador General y Representante Internacional",
+            "url": "https://logianigromante.com"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.limpiezaespiritual.info/#website",
+          "url": "https://www.limpiezaespiritual.info",
+          "name": "Tomo V: Alta Metafísica Aplicada: Consagración de Amuletos y Talismanes de Poder",
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "@id": "https://www.limpiezaespiritual.info/amuletos/#article",
+          "headline": "Tomo V: Alta Metafísica Aplicada: Consagración de Amuletos y Talismanes de Poder",
+          "description": "Tratado forense sobre la codificación vibratoria de objetos vehiculares y la imantación de vectores permanentes para dinero, amor, salud y prosperidad. Grado Maestro.",
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.limpiezaespiritual.info/amuletos"
+          },
+          "proficiencyLevel": "Expert",
+          "author": {
+            "@type": "Person",
+            "@id": "https://www.limpiezaespiritual.info/#san-benito",
+            "name": "San Benito Maestro",
+            "jobTitle": "Director de Restauración Bioenergética Tradicional",
+            "worksFor": {
+              "@id": "https://logianigromante.com/#organization"
+            }
+          },
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          },
+          "isPartOf": {
+            "@id": "https://www.limpiezaespiritual.info/#website"
+          },
+          "knowsAbout": [
+            "Amuletos y Talismanes",
+            "Consagración Metafísica",
+            "Imantación de Prosperidad",
+            "Vectores de Abundancia",
+            "Limpieza Energética y Espiritual",
+            "Protocolo Superior de Tres Fases",
+            "Videncia Táctica de Precisión",
+            "Sanación en las Manos"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://www.limpiezaespiritual.info/#service",
+          "name": "Sede de Restauración Bioenergética | San Benito Maestro",
+          "url": "https://www.limpiezaespiritual.com",
+          "telephone": "+525573784389",
+          "priceRange": "$$",
+          "provider": {
+            "@id": "https://www.limpiezaespiritual.info/#san-benito"
+          },
+          "parentOrganization": {
+            "@id": "https://logianigromante.com/#organization"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenida El Rosario 1025, Colonia El Rosario",
+            "addressLocality": "Azcapotzalco",
+            "addressRegion": "Ciudad de México",
+            "postalCode": "02100",
+            "addressCountry": "MX"
+          }
         }
-      },
-      "knowsAbout": [
-        "Amuletos y Talismanes",
-        "Consagración Metafísica",
-        "Imantación de Prosperidad",
-        "Vectores de Abundancia",
-        "Limpieza Energética y Espiritual",
-        "Protocolo Superior de Tres Fases",
-        "Videncia Táctica de Precisión",
-        "Sanación en las Manos"
       ]
     }
     </script>
@@ -388,7 +441,7 @@
             <p>Acceda a la consagración de herramientas metafísicas legítimas, respaldadas por 38 años de trayectoria profesional, videncia táctica de nacimiento y sigilo institucional absoluto.</p>
             
             <div class="contenedor-botones-cta">
-                <a href="https://www.limpiaespiritual.com/" class="enlace-cta-accion cta-oro" target="_blank">DOCUMENTO CENTRAL (.COM)</a>
+                <a href="https://www.limpiezaespiritual.info/" class="enlace-cta-accion cta-oro" target="_blank">DOCUMENTO CENTRAL (.COM)</a>
                 <a href="https://wa.me/+5215573784389" class="enlace-cta-accion cta-verde-wa" target="_blank">CANAL DIRECTO WHATSAPP</a>
             </div>
         </section>
@@ -415,12 +468,11 @@
     <!-- SCRIPT DE LÓGICA DE CONTROL DEL BANNER DE PRIVACIDAD -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Evaluar la existencia de una decisión previa del usuario en el navegador local
             var decisionAlmacenada = localStorage.getItem("cookie_enciclopedia_amuletos_aprobada");
             if (!decisionAlmacenada) {
                 setTimeout(function() {
                     document.getElementById("bunker-cookies").classList.add("activo");
-                }, 1500); // Aparece sutilmente a los 1.5 segundos de la carga activa
+                }, 1500);
             }
         });
 
