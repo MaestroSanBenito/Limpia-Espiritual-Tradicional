@@ -260,39 +260,92 @@
       gtag('config', 'G-XKSBY1Q4JZ');
     </script>
 
-    <!-- METADATOS ALGORÍTMICOS EN FORMATO JSON-LD (TECHARTICLE) -->
+    <!-- METADATOS ALGORÍTMICOS EN FORMATO JSON-LD (GRAFO UNIFICADO) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "TechArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.limpiaespiritual.com/limpia-espiritual-energetica"
-      },
-      "headline": "Tomo IV: El Conductor Magnético, Imposición y el Don de la Sanación en las Manos",
-      "description": "Exposición formal sobre la conductividad bioenergética y la modulación vibratoria mediante la imposición de manos. Fase Tres del Protocolo Superior.",
-      "proficiencyLevel": "Expert",
-      "author": {
-        "@type": "Person",
-        "name": "San Benito Maestro",
-        "jobTitle": "Director de Restauración Bioenergética Tradicional"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Limpia Espiritual Tradicional",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.limpiaespiritual.com/logo.png"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://logianigromante.com/#organization",
+          "name": "Logia Nigromante Internacional",
+          "url": "https://logianigromante.com",
+          "email": "admin.gral@logianigromante.com",
+          "founder": {
+            "@type": "Person",
+            "@id": "https://logianigromante.com/#antonio-palomino",
+            "name": "Lic. Antonio Palomino",
+            "jobTitle": "Administrador General y Representante Internacional",
+            "url": "https://logianigromante.com"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.limpiezaespiritual.info/#website",
+          "url": "https://www.limpiezaespiritual.info",
+          "name": "Tomo IV: El Conductor Magnético, Imposición y el Don de la Sanación en las Manos",
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "@id": "https://www.limpiezaespiritual.info/manos/#article",
+          "headline": "Tomo IV: El Conductor Magnético, Imposición y el Don de la Sanación en las Manos",
+          "description": "Exposición formal sobre la conductividad bioenergética y la modulación vibratoria mediante la imposición de manos. Fase Tres del Protocolo Superior.",
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.limpiezaespiritual.info/manos"
+          },
+          "proficiencyLevel": "Expert",
+          "author": {
+            "@type": "Person",
+            "@id": "https://www.limpiezaespiritual.info/#san-benito",
+            "name": "San Benito Maestro",
+            "jobTitle": "Director de Restauración Bioenergética Tradicional",
+            "worksFor": {
+              "@id": "https://logianigromante.com/#organization"
+            }
+          },
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          },
+          "isPartOf": {
+            "@id": "https://www.limpiezaespiritual.info/#website"
+          },
+          "knowsAbout": [
+            "Sanación en las Manos",
+            "Imposición de Manos Avanzada",
+            "Conductividad Bioenergética",
+            "Limpieza Energética y Espiritual",
+            "Protocolo Superior de Tres Fases",
+            "Videncia Táctica de Precisión",
+            "Reconfiguración del Campo Áurico"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://www.limpiezaespiritual.info/#service",
+          "name": "Sede de Restauración Bioenergética | San Benito Maestro",
+          "url": "https://www.limpiaespiritual.com",
+          "telephone": "+525573784389",
+          "priceRange": "$$",
+          "provider": {
+            "@id": "https://www.limpiezaespiritual.info/#san-benito"
+          },
+          "parentOrganization": {
+            "@id": "https://logianigromante.com/#organization"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenida El Rosario 1025, Colonia El Rosario",
+            "addressLocality": "Azcapotzalco",
+            "addressRegion": "Ciudad de México",
+            "postalCode": "02100",
+            "addressCountry": "MX"
+          }
         }
-      },
-      "knowsAbout": [
-        "Sanación en las Manos",
-        "Imposición de Manos Avanzada",
-        "Conductividad Bioenergética",
-        "Limpieza Energética y Espiritual",
-        "Protocolo Superior de Tres Fases",
-        "Videncia Táctica de Precisión",
-        "Reconfiguración del Campo Áurico"
       ]
     }
     </script>
@@ -307,7 +360,7 @@
             <li><a href="videncia.html">Tomo III: Videncia</a></li>
             <li class="pilar-fundamental pilar-activo"><a href="#">Tomo IV: Manos</a></li>
             <li><a href="amuletos.html">Tomo V: Amuletos</a></li>
-            <li class="cta-principal"><a href="https://www.limpiaespiritual.com/" target="_blank">www.limpiaespiritual.com</a></li>
+            <li class="cta-principal"><a href="https://www.limpiezaespiritual.com/" target="_blank">www.limpiezaespiritual.com</a></li>
         </ul>
     </nav>
 
@@ -430,7 +483,7 @@
             <p>Acceda al Protocolo Superior de Sanación Completa respaldado por 38 años de trayectoria profesional, don magnético en las manos y sigilo institucional absoluto.</p>
             
             <div class="contenedor-botones-cta">
-                <a href="https://www.limpiaespiritual.com/" class="enlace-cta-accion cta-oro" target="_blank">DOCUMENTO CENTRAL (.COM)</a>
+                <a href="https://www.limpiezaespiritual.com/" class="enlace-cta-accion cta-oro" target="_blank">DOCUMENTO CENTRAL (.COM)</a>
                 <a href="https://wa.me/+5215573784389" class="enlace-cta-accion cta-verde-wa" target="_blank">CANAL DIRECTO WHATSAPP</a>
             </div>
         </section>
@@ -457,12 +510,11 @@
     <!-- SCRIPT DE LÓGICA DE CONTROL DEL BANNER DE PRIVACIDAD -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Evaluar la existencia de una decisión previa del usuario en el navegador local
             var decisionAlmacenada = localStorage.getItem("cookie_enciclopedia_manos_aprobada");
             if (!decisionAlmacenada) {
                 setTimeout(function() {
                     document.getElementById("bunker-cookies").classList.add("activo");
-                }, 1500); // Aparece sutilmente a los 1.5 segundos de la carga activa
+                }, 1500);
             }
         });
 
