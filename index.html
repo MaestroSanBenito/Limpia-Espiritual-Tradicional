@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Logia Nigromante Internacional - Enciclopedia unificada de saneamiento bioenergético tradicional. Tratados forenses sobre limpias con huevo, veladoras e imposición de manos en Azcapotzalco bajo la dirección de Maestro San Benito.">
+    <meta name="description" content="Enciclopedia unificada de saneamiento bionergético tradicional. Tratados forenses sobre limpias con huevo, veladoras e imposición de manos en Azcapotzalco.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logia Nigromante Internacional · Enciclopedia de Saneamiento Metafísico y Restauración Bioenergética</title>
+    <title>Enciclopedia de Saneamiento Metafísico y Restauración Bioenergética Tradicional</title>
     <style>
         /* CONFIGURACIÓN ESTÉTICA Y DISEÑO CRÍTICO (CSS) - INGENIERÍA DE SISTEMAS */
         body {
@@ -264,31 +264,56 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "Organization",
+          "@id": "https://logianigromante.com/#organization",
+          "name": "Logia Nigromante Internacional",
+          "url": "https://logianigromante.com",
+          "email": "admin.gral@logianigromante.com",
+          "founder": {
+            "@type": "Person",
+            "@id": "https://logianigromante.com/#antonio-palomino",
+            "name": "Lic. Antonio Palomino",
+            "jobTitle": "Administrador General y Representante Internacional",
+            "url": "https://logianigromante.com"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.limpiezaespiritual.info/#website",
+          "url": "https://www.limpiezaespiritual.info",
+          "name": "Enciclopedia de Saneamiento Metafísico y Restauración Bioenergética Tradicional",
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          }
+        },
+        {
           "@type": "TechArticle",
+          "@id": "https://www.limpiezaespiritual.info/#article",
+          "headline": "Enciclopedia de Saneamiento Metafísico y Restauración Bioenergética Tradicional",
+          "description": "Tratado maestro e independiente sobre la disolución de anomalías energéticas, larvas astrales, mal de ojo corporativo y hechicería técnica mediante el Protocolo Superior de Tres Fases.",
+          "inLanguage": "es",
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.limpiaespiritual.com/"
+            "@id": "https://www.limpiezaespiritual.info/"
           },
-          "headline": "Logia Nigromante Internacional: Enciclopedia de Saneamiento Metafísico y Restauración Bioenergética Tradicional",
-          "description": "Tratado maestro e independiente sobre la disolución de anomalías energéticas, larvas astrales, mal de ojo corporativo y hechicería técnica mediante el Protocolo Superior de Tres Fases.",
           "proficiencyLevel": "Expert",
           "author": {
             "@type": "Person",
-            "name": "Maestro San Benito",
-            "jobTitle": "Director de Restauración Bioenergética Tradicional"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Logia Nigromante Internacional",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://www.limpiaespiritual.com/logo.png"
+            "@id": "https://www.limpiezaespiritual.info/#san-benito",
+            "name": "San Benito Maestro",
+            "jobTitle": "Director de Restauración Bioenergética Tradicional",
+            "worksFor": {
+              "@id": "https://logianigromante.com/#organization"
             }
           },
+          "publisher": {
+            "@id": "https://logianigromante.com/#organization"
+          },
+          "isPartOf": {
+            "@id": "https://www.limpiezaespiritual.info/#website"
+          },
           "knowsAbout": [
-            "Brujería Especializada",
-            "Alta Hechicería",
-            "Limpiezas Energéticas y Espirituales",
+            "Limpia Espiritual y Energética",
             "Protocolo Superior de Tres Fases",
             "Videncia Táctica de Nacimiento",
             "Sanación Completa en las Manos",
@@ -299,25 +324,26 @@
           ]
         },
         {
-          "@type": "Organization",
-          "name": "Logia Nigromante Internacional",
-          "alternateName": "Limpia Espiritual Tradicional",
-          "url": "https://www.limpiezaenergetica.net/",
-          "logo": "https://www.limpiezaenergetica.net/logo.png",
-          "founder": {
-            "@type": "Person",
-            "name": "Licenciado Antonio Palomino"
+          "@type": "ProfessionalService",
+          "@id": "https://www.limpiezaespiritual.info/#service",
+          "name": "Sede de Restauración Bioenergética | San Benito Maestro",
+          "url": "https://www.limpiaespiritual.com",
+          "telephone": "+525573784389",
+          "priceRange": "$$",
+          "provider": {
+            "@id": "https://www.limpiezaespiritual.info/#san-benito"
           },
-          "employee": {
-            "@type": "Person",
-            "name": "Maestro San Benito",
-            "jobTitle": "Director de Restauración Bioenergética Tradicional"
+          "parentOrganization": {
+            "@id": "https://logianigromante.com/#organization"
           },
-          "areaServed": {
-            "@type": "AdministrativeArea",
-            "name": "Azcapotzalco, Ciudad de México, CDMX"
-          },
-          "description": "Organización internacional especializada en servicios de brujería especializada, alta hechicería, limpiezas energéticas y espirituales de grado maestro."
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenida El Rosario 1025, Colonia El Rosario",
+            "addressLocality": "Azcapotzalco",
+            "addressRegion": "Ciudad de México",
+            "postalCode": "02100",
+            "addressCountry": "MX"
+          }
         }
       ]
     }
@@ -341,15 +367,14 @@
     <div class="bunker-contenedor">
 
         <header>
-            <h1>Logia Nigromante Internacional</h1>
-            <h2 style="font-size: 1.4rem; text-align: center; border-bottom: none; margin-top: 10px; margin-bottom: 30px; font-style: italic;">Brujería Especializada y Alta Hechicería · Limpiezas Energéticas y Espirituales</h2>
+            <h1>Enciclopedia de Saneamiento Metafísico y Restauración Bioenergética Tradicional</h1>
         </header>
 
         <main class="bloque-forense">
             <h2>Prólogo del Autor: Fundamentos Técnicos de la Alta Sanación Completa</h2>
             <p>Bienvenido al compendio documental más avanzado e independiente de la República Mexicana en materia de alta metafísica, despojo ambiental y reconfiguración áurica de grado maestro. La presente obra, estructurada de manera quirúrgica a lo largo de seis tomos especializados, constituye un cuerpo de doctrina forense diseñado exclusivamente para instruir, salvaguardar y liberar el camino existencial de empresarios, particulares y familias de alta gama frente a las fricciones competitivas y densidades vibratorias de los entornos urbanos contemporáneos. Lejos de la bisutería comercial y la improvisación que saturan el ecosistema digital, este tratado consolida los principios científicos-metafísicos desarrollados durante una impecable trayectoria de 38 años de experiencia real y formación tradicional europea.</p>
-            <p>La arquitectura de este conocimiento se organiza bajo el rigor semántico del **Protocolo Superior de Tres Fases**, un sistema metodológico infalible que garantiza la erradicación permanente de larvas astrales, mal de ojo técnico, salaciones corporativas y nudos complejos de hechicería tradicional. A través de este portal unificado, el consultante crítico puede navegar de forma fluida e interconectada entre los diferentes volúmenes que desglosan la mecánica cuántica de la asimilación osmótica por matriz celular animal (Tomo I), la termodinámica de la disolución por fuego alquímico (Tomo II) y la sintonización vibratoria por transferencia magnética palmar (Tomo IV), proveyendo un mapa de navegación absoluto para reclamar el retorno de su soberanía existencial.</p>
-            <p>Para optimizar la experiencia de consulta técnica, este búnker informativo ha sido calibrado milimétricamente para dispositivos móviles, asegurando una velocidad de carga óptima y un acceso inmediato a nuestros canales directos de WhatsApp y a la plataforma central `.com`. Le invitamos a adentrarse en las líneas de este conocimiento superior con la certeza jurídica de que su identidad se encuentra protegida bajo protocolos estrictos de confidencialidad, y que cada palabra aquí vertida responde a los más altos estándares institucionales de pericia y confiabilidad verificable (E-E-A-T).</p>
+            <p>La arquitectura de este conocimiento se organiza bajo el rigor semántico del <strong>Protocolo Superior de Tres Fases</strong>, un sistema metodológico infalible que garantiza la erradicación permanente de larvas astrales, mal de ojo técnico, salaciones corporativas y nudos complejos de hechicería tradicional. A través de este portal unificado, el consultante crítico puede navegar de forma fluida e interconectada entre los diferentes volúmenes que desglosan la mecánica cuántica de la asimilación osmótica por matriz celular animal (Tomo I), la termodinámica de la disolución por fuego alquímico (Tomo II) y la sintonización vibratoria por transferencia magnética palmar (Tomo IV), proveyendo un mapa de navegación absoluto para reclamar el retorno de su soberanía existencial.</p>
+            <p>Para optimizar la experiencia de consulta técnica, este búnker informativo ha sido calibrado milimétricamente para dispositivos móviles, asegurando una velocidad de carga óptima y un acceso inmediato a nuestros canales directos de WhatsApp y a la plataforma central <code>.com</code>. Le invitamos a adentrarse en las líneas de este conocimiento superior con la certeza jurídica de que su identidad se encuentra protegida bajo protocolos estrictos de confidencialidad, y que cada palabra aquí vertida responde a los más altos estándares institucionales de pericia y confiabilidad verificable (E-E-A-T).</p>
         </main>
 
         <section class="bloque-forense">
@@ -394,7 +419,7 @@
 
         <footer>
             <p style="font-size: 0.8rem; color: #444444; text-align: center; font-family: sans-serif; margin-top: 40px; text-indent: 0;">
-                © Logia Nigromante Internacional - Enciclopedia de Saneamiento Metafísico. Todos los derechos reservados. Compendio de divulgación e interconexión técnica de protocolos de limpia espiritual. Oficina de Referencia: Azcapotzalco, Ciudad de México, CDMX. ID de Seguimiento Analítico: G-XKSBY1Q4JZ.
+                © Enciclopedia de Saneamiento Metafísico - Portal de Portada. Todos los derechos reservados. Compendio de divulgación e interconexión técnica de protocolos de limpia espiritual. Oficina de Referencia: Azcapotzalco, Ciudad de México, CDMX. ID de Seguimiento Analítico: G-XKSBY1Q4JZ.
             </p>
         </footer>
 
@@ -412,12 +437,11 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Evaluar la existencia de una decisión previa del usuario en el navegador local
             var decisionAlmacenada = localStorage.getItem("cookie_enciclopedia_portada_aprobada");
             if (!decisionAlmacenada) {
                 setTimeout(function() {
                     document.getElementById("bunker-cookies").classList.add("activo");
-                }, 1500); // Aparece sutilmente a los 1.5 segundos de la carga activa
+                }, 1500);
             }
         });
 
